@@ -1,0 +1,3 @@
+Ada Lovelace was an English mathematician and writer from the 19th century, best known for her work on Charles Babbage's proposed mechanical computer, the Analytical Engine.
+She is often considered the first computer programmer for devising an algorithm intended to be processed by the machine.
+The only legitimate child of poet Lord Byron, she was tutored in mathematics and logic by her mother, Annabella Milbanke, which was unusual for women at the time.
