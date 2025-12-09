@@ -7,8 +7,8 @@ requirement of class node(
     node is storage that stores: data and pointer(that points to the next node)
 )
 initialize(node) - inserting first node(prepearing list); head -> n_1
-insert_f(node) - adding node at the end
-insert_l(node) - adding node to a start
+insert_f(node) - adding node at begginig
+insert_l(node) - adding node to the end
 del_node(node) - deleting node without breaking a list chain
 search(node) - telling where our node lies beetween
 traverse() - display list
