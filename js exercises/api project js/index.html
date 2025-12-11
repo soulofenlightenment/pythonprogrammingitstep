@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ტექსტის წამკითხველი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <h1>ფაილის წამკითხველი</h1>
+        <p>აირჩიეთ .txt ფაილი და დააჭირეთ ღილაკს</p>
+        
+        <div class="input-group">
+            <input type="file" id="fileInput" accept=".txt">
+        </div>
+
+        <button id="uploadBtn">ტექსტის გამოტანა</button>
+
+        <div id="outputArea" class="hidden"></div>
+    </div>
+
+    <script src="api.js"></script>
+</body>
+</html>

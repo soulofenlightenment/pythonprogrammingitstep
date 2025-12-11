@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- დავალება 8.1 -->
+<input id="button" type="submit">
+<script>
+let myButton = document.querySelector("#button");
+console.log(myButton);
+</script>
+
+<!-- დავალება 8.2 -->
+<p id="p1">აბზაცი1</p>
+<p id="p2">აბზაცი2</p>
+<p id="p3">აბზაცი3</p>
+<script>
+let p1 = document.querySelector("#p1");
+let p2 = document.querySelector("#p2");
+let p3 = document.querySelector("#p3");
+console.log(p1, p2, p3);
+</script>
+
+<!-- დავალება 8.3 -->
+<div id="twoParagraphs">
+  <p>პირველი აბზაცი</p>
+  <p>მეორე აბზაცი</p>
+</div>
+<script>
+let firstP = document.querySelector("#twoParagraphs p");
+console.log(firstP);
+</script>
+
+<!-- დავალება 8.4 -->
+<p class="p">text1</p>
+<p class="p">text2</p>
+<script>
+let firstClassP = document.querySelector(".p");
+console.log(firstClassP);
+</script>
+
+<!-- დავალება 8.5 -->
+<input id="button_1" type="submit">
+<input id="button_2" type="submit">
+<input id="button_3" type="submit">
+<script>
+let b1 = document.querySelector("#button_1");
+let b2 = document.querySelector("#button_2");
+let b3 = document.querySelector("#button_3");
+b1.addEventListener("click", () => console.log("პირველი ღილაკი"));
+b2.addEventListener("click", () => console.log("მეორე ღილაკი"));
+b3.addEventListener("click", () => console.log("მესამე ღილაკი"));
+</script>
+
+<!-- დავალება 8.6 -->
+<input id="button_1" type="submit" value="2 + 2">
+<input id="button_2" type="submit" value="3 * 3">
+<input id="button_3" type="submit" value="4 / 4">
+<script>
+function sum() { console.log(2 + 2); }
+function multiplication() { console.log(3 * 3); }
+function divide() { console.log(4 / 4); }
+
+document.querySelector("#button_1").addEventListener("click", sum);
+document.querySelector("#button_2").addEventListener("click", multiplication);
+document.querySelector("#button_3").addEventListener("click", divide);
+</script>
+
+<!-- დავალება 8.7 -->
+<p id="elem1">First Paragraph</p>
+<p id="elem2">Second Paragraph</p>
+<p id="elem3">Third Paragraph</p>
+<script>
+function myFunc() { console.log("საინტერესო შეტყობინება"); }
+document.querySelector("#elem1").addEventListener("click", myFunc);
+document.querySelector("#elem2").addEventListener("click", myFunc);
+document.querySelector("#elem3").addEventListener("click", myFunc);
+</script>
+
+<!-- დავალება 8.8 -->
+<input id="button8" type="submit" value="სუპერ ღილაკი">
+<script>
+function myFunc1() { alert("საინტერესო შეტყობინება"); }
+function myFunc2() { console.log("სუპერ ღილაკზე მოხდა დაკლიკება"); }
+document.querySelector("#button8").addEventListener("click", () => {
+  myFunc1();
+  myFunc2();
+});
+</script>
+
+<!-- დავალება 8.9 -->
+<p id="myText">Some text</p>
+<script>
+function myFunc1() { alert("შეტყობინება1"); }
+function myFunc2() { alert("შეტყობინება2"); }
+function myFunc3() { alert("შეტყობინება3"); }
+document.querySelector("#myText").addEventListener("click", () => {
+  myFunc1();
+  myFunc2();
+  myFunc3();
+});
+</script>
+
+<!-- დავალება 8.10 -->
+<input id="button10" type="submit" value="სუპერ ღილაკი">
+<script>
+document.querySelector("#button10").addEventListener("dblclick", () => {
+  console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება");
+});
+</script>
+
+<!-- დავალება 8.11 -->
+<input id="button11" type="submit" value="სუპერ ღილაკი">
+<script>
+document.querySelector("#button11").addEventListener("mouseover", () => {
+  console.log("სუპერ ღილაკზე მოხდა მაუსის გადატარება");
+});
+</script>
+
+<!-- დავალება 8.12 -->
+<input id="button12" type="submit" value="სუპერ ღილაკი">
+<script>
+document.querySelector("#button12").addEventListener("mouseout", () => {
+  console.log("სუპერ ღილაკიდან მოხდა მაუსის მოცილება");
+});
+</script>
+
+<!-- დავალება 8.13 -->
+<input id="button13" type="submit" value="სუპერ ღილაკი">
+<script>
+let b13 = document.querySelector("#button13");
+b13.addEventListener("mouseover", () => {
+  console.log("სუპერ ღილაკზე მოხდა მაუსის გადატარება");
+});
+b13.addEventListener("mouseout", () => {
+  console.log("სუპერ ღილაკიდან მოხდა მაუსის მოცილება");
+});
+</script>
+
+<!-- დავალება 8.14 -->
+<p id="myText14">Some text</p>
+<script>
+let myElem = document.querySelector("#myText14");
+myElem.textContent = "ახალი პარაგრაფი";
+</script>
+
+<!-- დავალება 8.15 -->
+<p id="para15">ეს არის აბზაცი</p>
+<input id="button15" type="submit" value="წაკითხვა">
+<script>
+document.querySelector("#button15").addEventListener("click", () => {
+  let text = document.querySelector("#para15").textContent;
+  console.log(text);
+});
+</script>
+
+</body>
+</html>
