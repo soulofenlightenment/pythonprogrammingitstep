@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Ana",
+        "age": 19
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "age": 21
+    },
+    {
+        "id": 3,
+        "name": "otto",
+        "age": 21
+    },
+    {
+        "id": 4,
+        "name": "nika",
+        "age": 34
+    },
+    {
+        "id": 5,
+        "name": "salome",
+        "age": 23
+    },
+    {
+        "id": 6,
+        "name": "gio",
+        "age": 45
+    },
+    {
+        "id": 7,
+        "name": "arvici",
+        "age": 99
+    },
+    {
+        "id": 8,
+        "name": "gamovidaaa",
+        "age": 10101010
+    },
+    {
+        "id": 9,
+        "name": "elene",
+        "age": 12
+    }
+]
